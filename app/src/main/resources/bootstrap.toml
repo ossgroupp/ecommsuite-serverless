@@ -1,0 +1,7 @@
+aws.client.system-manager.parameterstore.enabled = true
+coherence.session.default.type = 'grpc'
+consul.client.defaultZone = '${CONSUL_HOST:localhost}:${CONSUL_PORT:8500}'
+
+[micronaut]
+application.name = 'ecommsuiteServerless'
+config-client.enabled = true
